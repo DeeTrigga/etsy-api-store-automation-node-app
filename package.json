@@ -8,6 +8,8 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie": "^1.0.2",
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
     "dotenv": "^16.3.1",
@@ -16,9 +18,17 @@
     "hbs": "^4.1.2",
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^2.6.1",
-    "puppeteer": "^20.7.4",
+    "nodemon": "^3.1.9",
+    "npm": "^11.1.0",
+    "nvm": "^0.0.4",
+    "path-to-regexp": "^8.2.0",
+    "puppeteer": "^24.2.0",
+    "puppeteer-core": "^24.2.0",
     "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "semver": "^7.7.1",
+    "send": "^1.1.0",
+    "ws": "^8.18.0"
   },
   "engines": {
     "node": "18.15.0"
@@ -26,15 +36,7 @@
   "pkg": {
     "scripts": "*.js",
     "assets": [
-      "views/**/*",
-      "node_modules/@puppeteer/**/*",
-      "node_modules/puppeteer/**/*",
-      "node_modules/puppeteer-extra-plugin-stealth/**/*",
-      "node_modules/puppeteer-extra-plugin/**/*",
-      "node_modules/puppeteer-extra/**/*",
-      "node_modules/puppeteer-extra-plugin-user-data-dir/**/*",
-      "node_modules/puppeteer-extra-plugin-user-preferences/**/*",
-      "node_modules/vm2/**/*"
+      "node_modules/**/*"
     ],
     "targets": [
       "node18-win-x64"
