@@ -13,6 +13,7 @@
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
     "dotenv": "^16.3.1",
+    "etsy": "^0.1.1",
     "express": "4.x",
     "form-data": "^4.0.0",
     "hbs": "^4.1.2",
